@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #0d47a1;
+  color: white;
+  padding: 12px 25px;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+

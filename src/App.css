@@ -1,0 +1,300 @@
+/* 🌍 RESET & BASE STYLES */
+/* ----------------- GLOBAL STYLES ----------------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  color: #0d47a1;
+  height: 100%;
+}
+
+/* ----------------- START PAGE ----------------- */
+.start-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #90caf9, #e3f2fd);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.app-title {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  color: #1e3a8a;
+}
+
+.start-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #1e3a8a;
+}
+
+.start-btn {
+  padding: 18px 44px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #0d47a1;
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* ----------------- HEADER ----------------- */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+   border: 3px solid #0d47a1;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.main-title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #0d47a1;
+  margin: 0;
+  text-align: center;
+  
+  text-decoration-thickness: 4px;
+  
+  letter-spacing: 2px;
+}
+
+/* Header right buttons */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ----------------- BUTTONS ----------------- */
+button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Leaderboard Button */
+.leaderboard-btn {
+  background: linear-gradient(90deg, #1e3a8a, #073874);
+  color: white;
+  padding: 16px 30px;
+  border-radius: 14px;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.leaderboard-btn:hover {
+  background: linear-gradient(90deg, #1e3a8a, #073874);
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.6);
+}
+
+/* Auth Buttons */
+.auth-btn {
+  background-color: #64b5f6 !important;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.auth-btn:hover { transform: scale(1.05); }
+
+.auth-btn.register { background-color: #4caf50 !important; }
+.auth-btn.login { background-color: #f9a825 !important; }
+.auth-btn.otp { background-color: #ab47bc !important; }
+
+/* ----------------- HOME PAGE ----------------- */
+.app-home-container {
+  min-height: 100vh;
+  
+  padding: 40px 20px;
+}
+
+
+.home-center-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* keep it from top */
+  align-items: center;         /* horizontal center */
+  gap: 30px;                   /* spacing between heading & button */
+  width: 100%;                 /* make sure wrapper uses full width */
+  margin-top: 10px;
+  text-align: center;           /* ensures text inside children is centered */
+}
+
+.home-heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #1e3a8a;
+  background: white;
+  padding: 16px 34px;
+  border-radius: 16px;
+  margin: 10px;                  /* remove auto/margin issues */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
+  display: inline-block;  
+  border: 4px solid #1e3a8a;    /* keeps the background snug around text */
+}
+
+
+
+
+.home-start-btn {
+  padding: 20px 60px;          /* Bigger clickable area */
+  font-size: 1.8rem;           /* Larger font */
+  font-weight: 700;             /* Bolder text */
+  color: #1e3a8a;
+  margin-bottom: 5px;                  /* Text color for contrast */
+  background: white; /* Gradient for style */
+  border: none;
+  border-radius: 14px;          /* Slightly more rounded */
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.6); /* Stronger shadow */
+  border: 4px solid #1e3a8a;
+  
+}
+
+.home-start-btn:hover {
+  transform: scale(1.08);                         /* Slightly bigger on hover */
+  background: linear-gradient(90deg, #2563eb, #1e40af); /* Darker gradient */
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.7);       /* Deeper shadow */
+}
+
+/* ----------------- FLOATING IMAGE ----------------- */
+.floating-banner {
+  width: 650px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  animation: floatBanner 4s ease-in-out infinite;
+}
+
+@keyframes floatBanner {
+  0%, 50%, 100% { transform: translateX(-50%) translateY(0px); }
+  25%, 75% { transform: translateX(-50%) translateY(-20px); }
+}
+
+/* ----------------- CATEGORY PAGE ----------------- */
+
+
+
+
+
+/* ----------------- LEADERBOARD ----------------- */
+.leaderboard-wrapper {
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.leaderboard-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0d47a1;
+  text-align: center;
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+@media (max-width:900px) {
+  .header-container { flex-direction: column; align-items:flex-start; gap:16px; }
+  .header-right { width:100%; justify-content: flex-start; gap:10px; }
+  .main-title { font-size: 3rem; }
+  .home-heading { font-size: 2.2rem; padding: 14px 28px; }
+}
+
+@media (max-width:480px) {
+  .main-title { font-size: 2.2rem; }
+  .home-heading { font-size: 1.8rem; padding: 12px 24px; }
+}
+.key-features {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin: 30px auto 10px auto;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1.2s ease-in-out;
+  margin-top: 2px;
+  border: 4px solid #1e3a8a;
+}
+
+.key-features h2 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.key-features ul {
+  list-style-type: "✨ ";
+  padding-left: 20px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #333;
+}
+
+.key-features li {
+  margin-bottom: 12px;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.key-features li:hover {
+  transform: translateX(5px);
+  color: #ff5722;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

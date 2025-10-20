@@ -1,0 +1,43 @@
+.leaderboard-container {
+  margin: 30px auto;
+  width: 95%;
+  max-width: 900px;          /* Pehle 800px, ab aur wide */
+  background: #f0f9ff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.leaderboard-container h2 {
+  font-size: 2.4rem;         /* Headings hero size */
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e3a8a;
+  text-transform: uppercase;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  font-size: 1.6rem;         /* Table text bada */
+  font-weight: 700;
+  padding: 18px 24px;        /* Cells bigger */
+  text-align: center;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.leaderboard-table th {
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+}
+
+.leaderboard-table tr:hover {
+  background: #3b82f6;
+  color: white;
+}

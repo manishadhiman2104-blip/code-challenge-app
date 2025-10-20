@@ -1,0 +1,110 @@
+.challenge-container {
+  display: flex;
+  height: 90vh;
+  gap: 20px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow-y: auto;
+}
+
+.left-panel {
+  border-right: 2px solid #e2e8f0;
+}
+
+.back-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.back-btn:hover {
+  background-color: #1e40af;
+}
+
+.question-title {
+  margin: 0;
+}
+
+.difficulty {
+  display: inline-block;
+  margin: 5px 0 15px 0;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.difficulty.easy { background-color: #10b981; }
+.difficulty.medium { background-color: #f59e0b; }
+.difficulty.hard { background-color: #ef4444; }
+
+.question-description {
+  margin-bottom: 15px;
+}
+
+.example {
+  background-color: #e2e8f0;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.hint {
+  background-color: #fef3c7;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.right-panel h3 {
+  margin-top: 0;
+}
+
+.code-input {
+  width: 100%;
+  font-family: monospace;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  resize: vertical;
+}
+
+.run-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.run-btn:hover {
+  background-color: #1e40af;
+}
+
+.output-section {
+  margin-top: 15px;
+}
+
+.console {
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 50px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}

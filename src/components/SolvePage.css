@@ -1,0 +1,83 @@
+.solve-page {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(145deg, #f0f4f8, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.back-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.question-title {
+  font-size: 1.8rem;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.question-desc {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.hint-section {
+  margin: 15px 0;
+}
+
+.hint-btn {
+  background: #64b5f6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hint-text {
+  background: #e1f5fe;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.editor-section {
+  margin-top: 20px;
+}
+
+.code-input {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  background: #f1f5f9;
+}
+
+.run-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.run-btn:hover {
+  background: #0056b3;
+}
+
+.output-section {
+  margin-top: 20px;
+}
