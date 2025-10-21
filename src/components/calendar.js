@@ -4,7 +4,7 @@ import "./calendar.css";
 
 function Calendar() {
   const [currentDate, setCurrentDate] = useState(new Date());
-  const [streakDays, setStreakDays] = useState([1, 2, 3, 5, 6, 10, 12, 15]); // sample solved days
+  const [streakDays] = useState([1, 2, 3, 5, 6, 10, 12, 15]); // sample solved days
 
   useEffect(() => {
     // Update date every minute to handle day change dynamically

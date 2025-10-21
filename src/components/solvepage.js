@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { duotoneLight } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Confetti from "react-confetti";
+
+
+
 import "./SolvePage.css";
+
 
 function SolvePage({ question, onBack }) {
   const [userCode, setUserCode] = useState("");
@@ -33,7 +37,10 @@ function SolvePage({ question, onBack }) {
   };
 
   return (
-    <div className="solve-page">
+    <div className="solve-page"
+   
+    >
+        
       {showConfetti && <Confetti recycle={false} numberOfPieces={200} />}
       <button className="back-btn" onClick={onBack}>← Back</button>
 

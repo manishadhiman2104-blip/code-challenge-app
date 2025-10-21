@@ -2,7 +2,6 @@
 
 
 import React from "react";
-import leaderboardData from "../data/leaderboarddata";
 import "./leaderboard.css";
 
 function Leaderboard({ data, onBack }) {
@@ -11,7 +10,7 @@ function Leaderboard({ data, onBack }) {
       <button className="back-btn" onClick={onBack}>
         ← Back
       </button>
-      <h2 className="leaderboard-heading"> Leaderboard</h2>
+      <h2 className="leaderboard-heading">Leaderboard</h2>
       <table className="leaderboard-table">
         <thead>
           <tr className="table-header">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 
 // Single-file React component that contains all 70 Java solutions as strings.
 // Paste this file into your React project (e.g., src/components/QuestionSolutions.jsx)
@@ -30,9 +30,9 @@ import React, { useState } from "react";
       { title: "Implement strstr()", level: "Easy", input: "'hello','ll'", output: "2", hint: "Check every position of haystack if substring matches needle.", description: "Find the first occurrence of a substring in a string." },
       { title: "Longest Common Prefix", level: "Easy", input: "['flower','flow','flight']", output: "'fl'", hint: "Compare characters column by column among all strings.", description: "Find the longest common prefix string among a list of strings." },
       { title: "String Compression", level: "Medium", input: "'aabcccccaaa'", output: "'a2b1c5a3'", hint: "Count consecutive characters and append count.", description: "Compress a string by replacing consecutive characters with character + count." },
-      { title: "Valid Parentheses", level: "Easy", input: "'()[]{}'", output: "true", hint: "Use a stack to match opening and closing brackets.", description: "Check if parentheses/brackets are correctly balanced." },
+      { title: "Valid Parentheses for strings", level: "Easy", input: "'()[]{}'", output: "true", hint: "Use a stack to match opening and closing brackets.", description: "Check if parentheses/brackets are correctly balanced." },
       { title: "Minimum Window Substring", level: "Hard", input: "'ADOBECODEBANC','ABC'", output: "'BANC'", hint: "Use sliding window with hashmap to track counts.", description: "Find the smallest substring containing all characters of another string." },
-      { title: "Group Anagrams", level: "Medium", input: "['eat','tea','tan','ate','nat','bat']", output: "[['eat','tea','ate'],['tan','nat'],['bat']]", hint: "Use sorted string as key in a hashmap to group words.", description: "Group words that are anagrams of each other." }
+      { title: "Group Anagrams for strings", level: "Medium", input: "['eat','tea','tan','ate','nat','bat']", output: "[['eat','tea','ate'],['tan','nat'],['bat']]", hint: "Use sorted string as key in a hashmap to group words.", description: "Group words that are anagrams of each other." }
     ]
   },
   {
@@ -401,7 +401,7 @@ public class StringCompression {
 }
 `,
 
-  "Valid Parentheses": `// Valid parentheses - stack
+  "Valid Parentheses for strings" : `// Valid parentheses - stack
 import java.util.*;
 public class ValidParentheses {
     public static boolean isValid(String s){
@@ -441,7 +441,7 @@ public class MinWindow {
 }
 `,
 
-  "Group Anagrams": `// Group Anagrams - Java
+  "Group Anagrams for strings": `// Group Anagrams - Java
 import java.util.*;
 public class GroupAnagrams {
     public static List<List<String>> groupAnagrams(String[] strs){
@@ -675,7 +675,7 @@ public class NextGreaterElement {
 }
 `,
 
-"Valid Parentheses": `// Valid Parentheses using Stack
+"Valid Parentheses": `
 import java.util.*;
 public class ValidParenthesesStack {
     public static boolean isValid(String s) {
