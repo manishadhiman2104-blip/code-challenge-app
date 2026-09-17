@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/code-challenge-app/static/css/main.0e2e8cd1.css",
+    "main.js": "/code-challenge-app/static/js/main.a9cece8e.js",
+    "static/media/57783.jpg": "/code-challenge-app/static/media/57783.4acfcd4b3a8c7e7d062b.jpg",
+    "static/media/darkblue.jpg": "/code-challenge-app/static/media/darkblue.1f1c90155795391e88db.jpg",
+    "static/media/codingbackground.jpg": "/code-challenge-app/static/media/codingbackground.88b7e48fd35323078253.jpg",
+    "static/media/darkbluefords.jpg": "/code-challenge-app/static/media/darkbluefords.a47621fc43ee0fa3e481.jpg",
+    "static/media/hello2.png": "/code-challenge-app/static/media/hello2.cae06c5164858cf0a2a5.png",
+    "index.html": "/code-challenge-app/index.html",
+    "main.0e2e8cd1.css.map": "/code-challenge-app/static/css/main.0e2e8cd1.css.map",
+    "main.a9cece8e.js.map": "/code-challenge-app/static/js/main.a9cece8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2e8cd1.css",
+    "static/js/main.a9cece8e.js"
+  ]
+}
